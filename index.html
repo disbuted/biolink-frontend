@@ -1,0 +1,119 @@
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!--original source from drain.lol!!!-->
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>victimize.lol</title>
+    <meta content="victimize.lol" property="og:title">
+    <meta content="t.me/vainglorious" property="og:description">
+    <meta content="t.me/vainglorious" property="og:image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="js/main-audio-unlock.js" />
+    <link rel="stylesheet" href="js/inspect.js" />
+    <link rel="stylesheet" href="js/sparkle.js" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
+</head>
+
+
+<body>
+    <main id="background">
+        <section class="wrapper">
+            <p class="socials-list">
+            <span class="li-element">&gt;</span>
+            <a aria-label="private" id="eth" target="_blank">etherium</a>
+			<span class="li-element">&lt;/&gt;</span>
+            <a aria-label="private" href="https://github.com/disbuted" id="github" target="_blank">github</a> 
+            <span class="li-element-right">&lt;</span>
+            </p>
+        </section>
+        <script>
+            document.addEventListener('contextmenu', event =>
+                event.preventDefault()
+            )
+        </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const notyf = new Notyf({
+                duration: 2000, 
+                position: { x: 'right', y: 'top' }, 
+                dismissible: true  
+            });
+
+            document.getElementById('eth').addEventListener('click', function() {
+                const textToCopy = "0x25CB688E2b46fD470EE84Bd2A2d11eA75f0F614A";
+
+                navigator.clipboard.writeText(textToCopy).then(function() {
+                    notyf.success('Address Copied To Clipboard');
+                }).catch(function(err) {
+                    notyf.error('Failed To Copy Address');
+                });
+            });
+        });
+    </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const notyf = new Notyf({
+                    duration: 2000,  
+                    position: { x: 'right', y: 'top' },  
+                    dismissible: true  
+                });
+    
+                document.getElementById('github').addEventListener('click', function() {
+                    const textToCopy = "";
+    
+                    navigator.clipboard.writeText(textToCopy).then(function() {
+                        notyf.success('Opening Github');
+                    }).catch(function(err) {
+                        notyf.error('Failed To Open Link');
+                    });
+                });
+            });
+        </script>
+        <script>
+            let msg1 = " discord.gg/larping";
+            const speed = 90;
+        
+            function scrollTitle() {
+                document.title = msg1;
+                msg1 = msg1.substring(1, msg1.length) + msg1.charAt(0);
+                setTimeout(scrollTitle, speed);
+                }
+        
+            scrollTitle();
+        </script>
+    </main>
+</body>
+</html>
